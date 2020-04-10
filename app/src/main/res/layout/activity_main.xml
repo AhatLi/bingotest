@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/blink"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="빙고 하기"
+        android:onClick="gobingo"
+        android:clickable="true"
+        android:background="@drawable/btn1"
+        android:id="@+id/btn1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="빙고 만들기"
+        android:onClick="makebingo"
+        android:clickable="true"
+        android:background="@drawable/btn2"
+        android:id="@+id/btn2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사용법"
+        android:onClick="infobingo"
+        android:clickable="true"
+        android:background="@drawable/btn3"
+        android:id="@+id/btn3" />
+</LinearLayout>
